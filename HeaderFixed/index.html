@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ヘッダー固定ナビゲーションバー</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <nav class="navbar">
+        <h2 class="logo">Relax</h2>
+        <ul class="menu">
+          <li><a href="#">ホーム</a></li>
+          <li><a href="#">本サイトについて</a></li>
+          <li><a href="#">ブログ</a></li>
+          <li><a href="#">オンライン相談</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="text-area">
+      <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum, est
+        ipsam neque eius dolores vitae vel possimus debitis nam obcaecati rem iste
+        alias sint facilis pariatur eum ut, laboriosam quos? Quis, sapiente
+        deserunt quod voluptate voluptas temporibus labore nisi sint minus unde
+        iusto provident, dolorem eligendi quae, aliquam dolorum praesentium nulla.
+        Repellendus nostrum inventore beatae itaque illum saepe quam officiis
+        dolor repudiandae. Possimus voluptatum fugit corporis quod deserunt vero
+        incidunt id libero facilis, ut itaque. Vel iusto perspiciatis animi magni
+        cupiditate libero mollitia beatae ut. Dolores ullam culpa dolorem
+        distinctio porro, aperiam libero sunt eaque natus reiciendis officiis
+        voluptatem quidem obcaecati quod nulla velit mollitia nisi. Consectetur
+        voluptatum optio, consequuntur iusto a odio aliquid quis? Officia cumque
+        quae nostrum molestiae numquam facilis debitis iste expedita nemo, impedit
+        deserunt dignissimos asperiores cum minus labore odit, amet, dolorem alias
+        animi. Magni sapiente perferendis, quo beatae voluptatibus nihil atque
+        corrupti modi in?
+      </p>
+      <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum, est
+        ipsam neque eius dolores vitae vel possimus debitis nam obcaecati rem iste
+        alias sint facilis pariatur eum ut, laboriosam quos? Quis, sapiente
+        deserunt quod voluptate voluptas temporibus labore nisi sint minus unde
+        iusto provident, dolorem eligendi quae, aliquam dolorum praesentium nulla.
+        Repellendus nostrum inventore beatae itaque illum saepe quam officiis
+        dolor repudiandae. Possimus voluptatum fugit corporis quod deserunt vero
+        incidunt id libero facilis, ut itaque. Vel iusto perspiciatis animi magni
+        cupiditate libero mollitia beatae ut. Dolores ullam culpa dolorem
+        distinctio porro, aperiam libero sunt eaque natus reiciendis officiis
+        voluptatem quidem obcaecati quod nulla velit mollitia nisi. Consectetur
+        voluptatum optio, consequuntur iusto a odio aliquid quis? Officia cumque
+        quae nostrum molestiae numquam facilis debitis iste expedita nemo, impedit
+        deserunt dignissimos asperiores cum minus labore odit, amet, dolorem alias
+        animi. Magni sapiente perferendis, quo beatae voluptatibus nihil atque
+        corrupti modi in?
+      </p>
+      <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum, est
+        ipsam neque eius dolores vitae vel possimus debitis nam obcaecati rem iste
+        alias sint facilis pariatur eum ut, laboriosam quos? Quis, sapiente
+        deserunt quod voluptate voluptas temporibus labore nisi sint minus unde
+        iusto provident, dolorem eligendi quae, aliquam dolorum praesentium nulla.
+        Repellendus nostrum inventore beatae itaque illum saepe quam officiis
+        dolor repudiandae. Possimus voluptatum fugit corporis quod deserunt vero
+        incidunt id libero facilis, ut itaque. Vel iusto perspiciatis animi magni
+        cupiditate libero mollitia beatae ut. Dolores ullam culpa dolorem
+        distinctio porro, aperiam libero sunt eaque natus reiciendis officiis
+        voluptatem quidem obcaecati quod nulla velit mollitia nisi. Consectetur
+        voluptatum optio, consequuntur iusto a odio aliquid quis? Officia cumque
+        quae nostrum molestiae numquam facilis debitis iste expedita nemo, impedit
+        deserunt dignissimos asperiores cum minus labore odit, amet, dolorem alias
+        animi. Magni sapiente perferendis, quo beatae voluptatibus nihil atque
+        corrupti modi in?
+      </p>
+      <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum, est
+        ipsam neque eius dolores vitae vel possimus debitis nam obcaecati rem iste
+        alias sint facilis pariatur eum ut, laboriosam quos? Quis, sapiente
+        deserunt quod voluptate voluptas temporibus labore nisi sint minus unde
+        iusto provident, dolorem eligendi quae, aliquam dolorum praesentium nulla.
+        Repellendus nostrum inventore beatae itaque illum saepe quam officiis
+        dolor repudiandae. Possimus voluptatum fugit corporis quod deserunt vero
+        incidunt id libero facilis, ut itaque. Vel iusto perspiciatis animi magni
+        cupiditate libero mollitia beatae ut. Dolores ullam culpa dolorem
+        distinctio porro, aperiam libero sunt eaque natus reiciendis officiis
+        voluptatem quidem obcaecati quod nulla velit mollitia nisi. Consectetur
+        voluptatum optio, consequuntur iusto a odio aliquid quis? Officia cumque
+        quae nostrum molestiae numquam facilis debitis iste expedita nemo, impedit
+        deserunt dignissimos asperiores cum minus labore odit, amet, dolorem alias
+        animi. Magni sapiente perferendis, quo beatae voluptatibus nihil atque
+        corrupti modi in?
+      </p>
+    </div>
+    <script>
+      const navbar = document.querySelector(".navbar");
+      const menu = document.querySelector(".menu");
+      //ヘッダーがulタグの位置に来たら、ヘッダーを固定する
+      window.addEventListener("scroll", () => {
+        if(window.pageYOffset >= menu.offsetTop){
+          navbar.classList.add("sticky");
+        }
+        else
+        {
+          navbar.classList.remove("sticky");
+        }       
+      }
+      )
+    </script>
+  </body>
+</html>
